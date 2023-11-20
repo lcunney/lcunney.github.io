@@ -1,0 +1,153 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+.background-img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hotel-img {
+  width: 100%;
+  height: 500px;
+}
+
+.banner {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #364350;
+}
+
+.nav-logo {
+  float: left;
+}
+.nav-logo:hover {
+  text-decoration: none;
+}
+
+.menu-item {
+  font-size: 13;
+  letter-spacing: 1p;
+  color: white;
+  transition: color .3s;
+}
+
+.menu-item:hover {
+  color: aquamarine;
+}
+
+.dropdown-item:hover {
+  background-color: aquamarine;
+}
+
+.active {
+  color: aquamarine;
+}
+
+.nav-logo {
+  font-size: 20px;
+}
+
+footer {
+  background: radial-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(images/footer.jpg) no-repeat center center /cover;
+  text-align: center;
+  position: relative;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.gallery-img {
+  border-radius: 50%;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.contact-form {
+  margin-top: 120px;
+}
+
+.trip-banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+
+
+.about {
+  padding: 90px 0;
+}
+
+.about-img {
+
+  height: auto;
+  width: 70%;
+}
+
+
+.btn {
+
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: aquamarine;
+  background-color: white; 
+  color: black; 
+  border: 2px solid aquamarine;
+}
+.btn:hover {
+  background-color: aquamarine;
+}
+
+.gallery {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.head {
+  margin-top: 70px;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: #1e262f;
+}
