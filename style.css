@@ -45,6 +45,10 @@ body {
   background-color: aquamarine;
 }
 
+.navbar-toggler {
+background-color: aquamarine;
+}
+
 .active {
   color: aquamarine;
 }
