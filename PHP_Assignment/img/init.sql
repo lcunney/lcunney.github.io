@@ -1,0 +1,7 @@
+CREATE DATABASE products;
+ use products;
+ CREATE TABLE IF NOT EXIST products (
+ id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ productName VARCHAR(100) NOT NULL,
+ price INT(50) NOT NULL,
+ );
